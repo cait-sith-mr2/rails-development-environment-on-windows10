@@ -4,12 +4,10 @@ h1が長くて自分でもよくわかっていないが、とりあえず残す
 
 Ruby on Rails6実践ガイド(初版2019年12月21日) ではDockerに変わってたがWidows側からの使いやすさや、チーム内展開にはVagrantのほうがまだいい気がする。
 
-
-また、Vagrantfileも自分で作らなくてもすでによいものが公開されている。
+Vagrantfileは以下のを使用します。
 ※使用するバージョンだけは注意
 
 https://github.com/rails/rails-dev-box
-
 
 
 Windows側のコマンド
@@ -22,9 +20,6 @@ Ubuntu側のコマンド
 vagrant@rails-dev-box:~$ ls
 ```
 
-Vagrantfileは以下のを使用します。
-
-https://github.com/rails/rails-dev-box
 
 # インストール手順
 
